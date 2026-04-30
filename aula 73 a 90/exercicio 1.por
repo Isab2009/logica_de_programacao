@@ -8,7 +8,7 @@ programa {
 
     para( i = 1; i<= 10; i++) 
 
-    escreva(n, "x ", i, "=", n + i, "\n")
+    escreva(n, "x ", i, "=", n * i, "\n") 
   }
 
     

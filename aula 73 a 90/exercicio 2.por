@@ -1,22 +1,21 @@
+
 programa {
   funcao inicio() {
-
     inteiro n, i, soma
 
-    escreva("digite N: ")
+    escreva("Digite N: ")
     leia(n)
 
     i = 1
     soma = 0
 
-    enquanto(i <= n) {
+    enquanto(i <= n){
       soma = soma + i 
-      
+
       i = i + 1
-    
-    escreva("soma = ", soma)
+
+      escreva("Soma = ", soma, "\n")
+    }
+   
   }
 }
-}
- 
-
